@@ -1,0 +1,1 @@
+# for_kurs_template.github.io
