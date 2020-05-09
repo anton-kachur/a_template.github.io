@@ -1,0 +1,318 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	overflow-x:hidden; 
+}
+
+.head-1 {
+	background-color: #61D4DE;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+
+.navbar {
+	position: absolute;
+	left: 72px;
+	top: -5px;
+}
+
+.head-1 a {
+	padding: 18px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #FFFFFF;
+}
+
+.head-1 form {
+	position: absolute;
+	width: 315px;
+	height: 40px;
+	left: 1100px;
+	top: 14px;
+}
+
+.search {
+    width: 315px;
+	height: 40px;
+	left: 637px;
+	top: 10px;
+
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 274px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+}
+   
+.s_b {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url("https://github.com/anton-kachur/for_kurs_template.github.io/blob/master/tools-and-utensils.png?raw=true"); /* Параметры фона */
+}
+
+.head-2 {
+	background-color: #FFFFFF;
+	height: 122px;
+	left: 0px;
+	top: 60px;
+}
+
+.logo img{
+	position: absolute;
+	height: 43px;
+	left: 121px;
+	top: 40px;
+}
+
+.font-1 {
+	font-family: Arial;
+	font-style: bold;
+	font-weight: Bold;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #000000;
+}
+
+.font-2 {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	
+	color: #000000;
+}
+
+.font-3 {
+	height: 111px;
+
+	padding-top: 140px;
+	padding-left: 433px;
+	font-family: Staatliches;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 60px;
+
+}
+
+.font-4 {	
+	height: 45px;
+
+	padding-top: 54px;
+	padding-left: 490px;
+	font-family: Staatliches;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 45px;
+}
+
+.cart {
+	position: absolute;
+	width: 46px;
+	height: 43px;
+	right: -145px;
+	top: 40px;
+
+	background: #0C7FB0;
+	border: 2px solid #0C7FB0;
+	box-sizing: border-box;
+	border-radius: 9px;
+}
+
+.cart img{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	
+	left: 8px;
+	top: 7px;
+}
+
+.catalogue {
+	position: absolute;
+	width: 150px;
+	height: 37px;
+	left: 108px;
+	top: 194px;
+
+	background: #E5E5E5;
+}
+
+.catalogue img{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 12px;
+	top: 9px;
+}
+
+.sub_header {
+	position: relative;
+	height: 510px;
+	left: 0px;
+	top: 0px;
+	background-image: linear-gradient(180deg, rgba(236, 213, 10, 0.27) 0%, rgba(255, 236, 69, 0.1593) 71.75%, rgba(225, 216, 132, 0.27) 100%, rgba(255, 255, 255, 0) 100%), 
+		url("https://github.com/anton-kachur/for_kurs_template.github.io/blob/master/sport-treadmill-tor-route-163444.jpeg?raw=true");
+}
+
+.arrow-left {
+	position:absolute;
+	left: 136px;
+	top: 230px;
+
+	background: url(next.png);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.arrow-right {
+	position: absolute;
+	width: 43.02px;
+	height: 44px;
+	right: 208px;
+	top: 230px;
+}
+
+.goods {
+	height: 385px;
+	text-decoration: none;
+}
+
+.sticker-1{
+	position: absolute;
+	top: 10px;
+	right: 120px;
+	height: 36px;
+	width: 36px;
+}
+
+.sticker-2{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 30px;
+	top: 10px;
+	
+	background: #FE5151;
+}
+
+.sticker-2 .text {
+
+	width: 43px;
+	height: 21px;
+	left: 5px;
+	top: 5px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	/* identical to box height */
+
+	color: #FFFFFF;
+}
+
+.arr-right {
+	width: 40px;
+	height: 40px;
+	left: 48px;
+	top: 872px;
+}
+
+.arr-left {
+	width: 40px;
+	height: 40px;
+	left: 976px;
+	top: 870px;
+
+	background: url(image.png);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.card-image img {
+	width: 270px;
+	height: 210px;
+}
+
+.description {
+	width: 270px;
+	height: 100px;
+	left: 97px;
+	top: 947px;
+
+	background: rgba(97, 212, 222, 0.56);
+}
+
+
+.line {
+	width: 776px;
+	height: 0px;
+	padding-right: 333px;
+	top: 700px;
+
+	border: 1px solid #000000;
+}
+
+.services {
+	height: 130px;
+	left: 0px;
+	top: 1892px;
+
+	background: #61D4DE;
+}
+
+.services .col-md-3 {
+	width: 236px;
+	height: 70px;
+	left: 72px;
+}
+
+.services .row-md-3 {
+	left: 72px;
+}
+
+.footer {
+	height: 476px;
+	left: 0px;
+	top: 1878px;
+
+	background: url("https://github.com/anton-kachur/for_kurs_template.github.io/blob/master/adventure-alpine-background-black-and-white-355770.jpg?raw=true");
+}
+
+.time {
+	width: 178px;
+	height: 71px;
+	left: 99px;
+	top: 2071px;
+}
+
+.copyright {
+	position: absolute;
+	width: 357px;
+	height: 16px;
+	left: 333px;
+	top: 2286px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height */
+
+	color: #FFFFFF;
+}
